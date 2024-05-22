@@ -33,7 +33,7 @@ This repository contains the assignments for the AI Engineer role. The assignmen
 
 ## Requirements
 
-To run this project, you need to have the following installed:
+To run this project, you need to have the following:
 
 - Python 3.11 or higher
 - FastAPI
@@ -51,3 +51,14 @@ Follow these steps to set up the project on your local machine:
    ```bash
    git clone https://github.com/gunjan5489/ai-engineer-assignment-main.git
    cd ai-engineer-assignment-main
+
+2. **Set up environment variables**:
+   Create a .env file in the root directory and add your OpenAI API key and other necessary configurations:
+   ```bash
+   # put your environment variables here
+   # and rename this file to .env
+   # any of 'gpt-4-turbo' model is recommended
+   OPENAI_API_KEY=your-openai-api-key
+   MODEL_NAME=gpt-3.5-turbo-16k
+   TEMPERATURE=0.0
+   MAX_TOKENS=1000
