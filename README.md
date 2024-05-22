@@ -8,9 +8,7 @@ Welcome to the AI Engineer Assignment repository. This project is designed to he
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -62,3 +60,16 @@ Follow these steps to set up the project on your local machine:
    MODEL_NAME=gpt-3.5-turbo-16k
    TEMPERATURE=0.0
    MAX_TOKENS=1000
+3. **Run the shell script "start-docker-server.sh" file**:
+   - Ensure Docker is running before executing the shell script.
+   - After the shell script is running successfully , launch Web browser with the link address "http://localhost:8000/".
+
+## Contributing
+Contributions are welcome! Please follow these steps to contribute:
+
+ 1. Fork the repository.
+ 2. Create a new branch (git checkout -b feature/your-feature).
+ 3. Make your changes and commit them (git commit -m 'Add some feature').
+ 4. Push to the branch (git push origin feature/your-feature).
+ 5. Open a pull request.
+	
